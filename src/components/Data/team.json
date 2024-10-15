@@ -1,0 +1,91 @@
+{
+    "team":
+    [
+        {
+            "title": "CEO and Founder",
+            "name": "Swizel Fernandes ",
+            "description": "Digital marketing strategist who blends creativity and strategy for impactful results",
+            "profile": "/team/c1.png",
+            "link": "/"
+        },
+        {
+            "title": "COO",
+            "name": "Anvi Goel",
+            "description": "Anvi keeps operations smooth like butter, multitasking effortlessly to keep the team on track and projects flowing seamlessly.",
+            "profile": "/team/c2.png",
+            "link": "/"
+        }
+
+    ],
+    "process":
+    [
+        {
+            "index": 1,
+            "label": "Analytics & Reporting",
+            "content": "Gain insights into your digital performance with our detailed analytics that guide your strategy and decision-making."
+        },
+        {
+            "index": 2,
+            "label": "Brand Strategy & Identity",
+            "content": "We help you define your brand's unique voice and visual identity to stand out in the digital marketplace."
+        },
+        {
+            "index": 3,
+            "label": "Content Creation",
+            "content": "Our team produces engaging and relevant content that tells your brand’s story and captivates your audience."
+        },
+        {
+            "index": 4,
+            "label": "Content Marketing",
+            "content": "Strategically distribute your content to attract and retain a clearly defined audience, driving profitable customer action."
+        },
+        {
+            "index": 5,
+            "label": "Conversion Rate Optimization (CRO)",
+            "content": "We analyze user behavior on your website and implement data-driven recommendations to increase conversion rates."
+        },
+        {
+            "index": 6,
+            "label": "Digital Advertising",
+            "content": "Maximize your marketing budget with targeted ads that reach the right audience and deliver results."
+        },
+        {
+            "index": 7,
+            "label": "Email Marketing",
+            "content": "Stay connected with your audience through personalized email campaigns that drive engagement and conversions."
+        },
+        {
+            "index": 8,
+            "label": "Influencer Marketing",
+            "content": "Leverage authentic partnerships with influencers to boost your brand’s credibility and expand your reach."
+        },
+        {
+            "index": 9,
+            "label": "Online Reputation Management (ORM)",
+            "content": "Protect and enhance your brand’s image by monitoring online mentions and managing reviews."
+        },
+        {
+            "index": 10,
+            "label": "PPC Campaigns",
+            "content": "Achieve immediate visibility and results through our expertly managed pay-per-click advertising strategies."
+        },
+        {
+            "index": 11,
+            "label": "Public Relations (PR)",
+            "content": "Craft compelling stories and manage media relations to enhance your brand's reputation and visibility."
+        },
+        {
+            "index": 12,
+            "label": "SEO & Local SEO",
+            "content": "Improve your website’s visibility on search engines and attract local customers effectively."
+        },
+        {
+            "index": 13,
+            "label": "Web Design",
+            "content": "Create visually appealing and user-friendly websites that reflect your brand’s identity and drive engagement."
+        }
+    ]
+    
+    
+    
+}

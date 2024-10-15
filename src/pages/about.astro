@@ -1,0 +1,67 @@
+---
+import Container from "../components/Container.astro"
+import Layout from '../layouts/Layout.astro';
+import Team from "../components/Team.astro";
+---
+
+<Layout title="About Us - Meraami">
+    <main class="space-y-20">
+        <Container>
+            <!-- Hero Section -->
+            <div class="relative flex flex-col-reverse items-center md:flex-row" id="hero">
+                <div class="row items-center py-5 md:pb-20 md:pt-10">
+                    <div class="text-center space-y-10">
+                        <h2 class="text-5xl font-medium leading-none md:text-6xl">We Shape Your Brand's <br> Digital Presence Like Art</h2>
+                        <p class="mt-6 mb-8 text-xl font-normal leading-7 sm:mb-12">At Meraami, we are your digital potters, blending creativity with strategy to craft stunning online experiences. Just as a potter molds clay, we shape your brand into something extraordinary in the digital world.</p>
+                        <a href="/#contact" class="px-9 py-5 bg-goldlow hover:bg-white text-black hover:text-black border rounded-2xl justify-items-center md:justify-items-start gap-2.5 inline-flex cursor-ponter" rel="noopener noreferrer" >
+                            <h2 class="text-center text-xl font-normal leading-7">Book a consultation</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Our Vision Section -->
+            <section class="py-10">
+                <div class="text-center">
+                    <h3 class="text-4xl font-semibold mb-6">Our Vision</h3>
+                    <p class="text-xl font-normal leading-7 max-w-4xl mx-auto">At Meraami, our vision is simple: your success is our success. We aim to amplify your brand's reach and impact by harnessing creativity, discipline, and innovation, helping you achieve sustainable growth in the digital world.</p>
+                </div>
+            </section>
+
+            <!-- Our Mission Section -->
+            <section class="py-10 bg-gray-100">
+                <div class="text-center">
+                    <h3 class="text-4xl font-semibold mb-6">Our Mission</h3>
+                    <p class="text-xl font-normal leading-7 max-w-4xl mx-auto">Our mission is to provide customized, results-oriented digital solutions that empower businesses to connect with their global audiences. We focus on delivering excellence with a blend of quality, affordability, and punctuality.</p>
+                </div>
+            </section>
+
+            <!-- Clients Section -->
+            <!-- <div class="flex-row items-center">
+                <div class="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-6">
+                    <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
+                        <img src="./clients/01.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" />
+                    </div>
+                    <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
+                        <img src="./clients/02.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" />
+                    </div>
+                    <div class="p-4 flex grayscale transition duration-200 hover:grayscale-0">
+                        <img src="./clients/03.svg" class="h-9 w-auto m-auto" loading="lazy" alt="client logo" />
+                    </div>
+                    <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
+                        <img src="./clients/04.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" />
+                    </div>
+                    <div class="p-4 flex grayscale transition duration-200 hover:grayscale-0">
+                        <img src="./clients/05.svg" class="h-8 w-auto m-auto" loading="lazy" alt="client logo" />
+                    </div>
+                    <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
+                        <img src="./clients/06.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" />
+                    </div>
+                </div>
+            </div> -->
+        </Container>
+        <br>
+        <Team />
+        <br>
+    </main>
+</Layout>
